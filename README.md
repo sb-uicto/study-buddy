@@ -1,16 +1,41 @@
-# React + Vite
+# Study Buddy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Study Buddy is a web app that helps university students study effectively using course content, quizzes, and instant feedback.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Core Idea
 
-## React Compiler
+> Learn → Quiz → Feedback → Improve
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features (MVP)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Course content (notes, videos, PDFs)  
+- Quiz system:
+  - Practice mode (instant feedback)  
+  - Exam mode (timed, results at end)  
+- Progress tracking (basic score/readiness)  
+- AI assistant (course-based help)  
+- Offline access (cached content + quizzes)  
+
+---
+
+## Tech Stack
+
+- Frontend: React / Next.js  
+- Backend: Node.js / Firebase  
+- Database: PostgreSQL / SQLite  
+
+---
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+
+---
+## Status
+MVP in development
