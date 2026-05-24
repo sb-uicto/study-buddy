@@ -7,11 +7,11 @@ assignees: mary1na-code
 
 ---
 
-**User Story**
+### User Story
 As a [user type], I want [feature] so that [benefit].
 
-**Acceptance Criteria**
-* [Criteria 1]
+### Acceptance Criteria
+- [ ] 
 
-**Definition of Done (DoD)**
-* [DoD 1]
+### Definition of Done (DoD)
+- [ ]
