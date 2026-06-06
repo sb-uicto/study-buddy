@@ -3,7 +3,7 @@
 import Link from "next/link"; // 2. Use the official Next.js link component
 import { useRouter } from "next/navigation"; // 3. Use the official Next.js router hook
 
-export default function Navbar({ title = "Study Buddy", hideBack = false }) {
+export default function TopNavBar({ title = "Study Buddy", hideBack = false }) {
   const router = useRouter(); // 4. Next.js uses router.back() instead of navigate(-1)
 
   return (
