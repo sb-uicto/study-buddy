@@ -1,8 +1,12 @@
 'use client'
 
-export default const BottomNavBar = () => {
-            const getActive = (path) => location.pathname === path ? "text-purple-600 dark:text-purple-400 scale-105" : "text-slate-400";
-            const getIconFill = (path) => location.pathname === path ? 1 : 0;
+import { usePathname } from "next/navigation"; //import the path hook
+
+export default function BottomNavBar() {
+    const pathname = usePathname() // Get the current path
+
+            const getActive = (path) => pathname === path ? "text-purple-600 dark:text-purple-400 scale-105" : "text-slate-400";
+            const getIconFill = (path) => pathname === path ? 1 : 0;
 
             return (
                 <nav className="md:hidden bg-white/90 dark:bg-slate-900/90 backdrop-blur-md fixed bottom-0 w-full z-50 border-t border-indigo-50 dark:border-slate-800 shadow-[0_-4px_20px_rgba(26,35,126,0.05)]">
